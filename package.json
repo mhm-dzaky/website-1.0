@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $Port",
     "prettier": "prettier --write .",
     "lint": "next lint"
+    "heroku-postbluid": "npm run bluid"
+
   },
   "keywords": [],
   "author": "Takuya Matsuyama",
